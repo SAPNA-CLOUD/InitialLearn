@@ -1,0 +1,76 @@
+#portfolio{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    min-height: calc(100vh - 4rem);
+    max-width: 60rem;
+    padding: 0;
+}
+.portfolioHeading{
+    font-size: 2.6rem;
+    font-weight: 800;
+
+}
+.portfolioDesc{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 45rem;
+    padding: 1.2rem 0;
+}
+.portfolioImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+.portfolioImg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+.portfolioBtn{
+    padding: 0.5rem 2.5rem;
+    background: white;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 3rem 0;
+}
+.simon{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.project{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 100%;
+    background: wheat;
+    margin: 2rem 0;
+    padding: 0 4rem;
+}
+.pleft{
+    height: 60vh;
+    width: 45%;
+}
+.pleft img{
+    height: inherit;
+    width: 400px;
+}
+.pright{
+    height: inherit;
+    width: 45%;
+    color: black;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+}
+@media screen and (max-width:585px){
+    .portfolioImg{
+        height: 50vw;
+    }
+}
